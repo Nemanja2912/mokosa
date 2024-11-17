@@ -5,19 +5,17 @@ import { useEffect } from "react";
 
 const InstagramEmbed = () => {
   useEffect(() => {
-    if (document.readyState === "complete") {
-      setTimeout(() => {
-        const script = document.createElement("script");
-        script.src = "https://www.instagram.com/embed.js";
-        script.async = true;
-        document.body.appendChild(script);
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+      const script = document.createElement("script");
+      script.src = "https://www.instagram.com/embed.js";
+      script.async = true;
+      document.body.appendChild(script);
 
-        script.onload = () => {
-          if (window.instgrm) {
-            window.instgrm.Embeds.process();
-          }
-        };
-      }, 500);
+      script.onload = () => {
+        if (window.instgrm) {
+          window.instgrm.Embeds.process();
+        }
+      };
     }
   }, []);
 
