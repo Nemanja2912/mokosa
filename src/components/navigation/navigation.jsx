@@ -56,7 +56,7 @@ const List = ({ close = () => {} }) => {
     <ul>
       {navLinks.map((section, index) => (
         <li onClick={close} key={index}>
-          <Link href={section.link}>{section.text}</Link>
+          <Link href={""}>{section.text}</Link>
         </li>
       ))}
     </ul>
