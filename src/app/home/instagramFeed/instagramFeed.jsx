@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const InstagramEmbed = () => {
   useEffect(() => {
-    if (typeof window !== "undefined") {
+    if (document.readyState === "complete") {
       const script = document.createElement("script");
       script.src = "https://www.instagram.com/embed.js";
       script.async = true;

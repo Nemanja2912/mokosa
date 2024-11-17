@@ -8,7 +8,7 @@ const Hero = () => {
   const [height, setHeight] = useState();
 
   useEffect(() => {
-    // setHeight(window.innerHeight);
+    setHeight(window.innerHeight);
   }, []);
 
   return (
