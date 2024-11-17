@@ -1,7 +1,7 @@
 .section {
   position: relative;
 
-  padding: 15rem 0;
+  padding: 20rem 0;
 }
 
 .cloud {
@@ -22,13 +22,13 @@
 
 .section > div {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 10rem;
 }
 
 .section h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 5rem;
 }
 
@@ -49,17 +49,17 @@
 
 .item > p:nth-child(1) {
   font-family: var(--font-sourGummy);
-  font-size: 1.8rem;
+  font-size: 2.4rem;
 }
 
 .item > p:nth-child(2) {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   opacity: 0.6;
 }
 
 @media (max-width: 900px) {
   .section {
-    padding: 10rem 0;
+    padding: 15rem 0;
   }
 
   .section > div {
@@ -71,18 +71,14 @@
     font-size: 3rem;
     margin-bottom: 3rem;
   }
+}
 
+@media (max-width: 650px) {
   .item > p:nth-child(1) {
     font-size: 2rem;
   }
 
   .item > p:nth-child(2) {
-    font-size: 1.4rem;
-  }
-}
-
-@media (max-width: 650px) {
-  .item > p:nth-child(1) {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }

@@ -1,5 +1,11 @@
+import Playroom from "./playroom/playroom";
+
 const Page = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Playroom />
+    </div>
+  );
 };
 
 export default Page;

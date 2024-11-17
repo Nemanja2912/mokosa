@@ -20,9 +20,7 @@ const Contact = () => {
     <div className={styles.section}>
       <img className={styles.cloud} src="./assets/images/cloud2.png" alt="Cloud decoration" />
       <form onSubmit={handleSubmit} className={`${styles.form} container`}>
-        <h2>
-          Pošaljite nam svoj upit, komentar ili sugestiju <br /> (prvi dolazak je besplatan)
-        </h2>
+        <h2>Pošaljite nam svoj upit, komentar ili sugestiju (prvi dolazak je besplatan)</h2>
         <div className={styles.inputGroup}>
           <label htmlFor="name">Ime</label>
           <input type="text" id="name" name="name" required />

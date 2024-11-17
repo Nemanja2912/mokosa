@@ -1,7 +1,7 @@
 .section {
   position: relative;
   background-color: #abc3eb;
-  padding: 15rem 0;
+  padding: 20rem 0;
 }
 
 .cloud {
@@ -26,7 +26,7 @@
 
 @media (max-width: 992px) {
   .section {
-    padding: 10rem 0;
+    padding: 15rem 0;
   }
 
   .gallery {

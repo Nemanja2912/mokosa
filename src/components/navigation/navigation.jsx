@@ -7,11 +7,11 @@ import styles from "./navigation.module.css";
 const navLinks = [
   { text: "Igraonica", link: "/igraonica" },
   { text: "Proslava rođendana", link: "/proslava-rodjendana" },
-  { text: "Čuvanje", link: "/cuvanje" },
+  { text: "Čuvanjac", link: "/cuvanjac" },
   { text: "Programi i radionice", link: "/programi-i-radionice" },
   { text: "Mokoša klub", link: "/mokosa-klub" },
   { text: "Mokoša showroom", link: "/mokosa-showroom" },
-  { text: "Želim da ti kažem", link: "/zelim-da-ti-kazem" },
+  // { text: "Želim da ti kažem", link: "/zelim-da-ti-kazem" },
 ];
 
 const Navigation = () => {
@@ -43,7 +43,7 @@ const Navigation = () => {
       </div>
 
       <div className={`${styles.mobLinks} container`}>
-        <List />
+        <List close={() => setIsMenuOpen(false)} />
       </div>
     </nav>
   );
@@ -51,11 +51,11 @@ const Navigation = () => {
 
 export default Navigation;
 
-const List = () => {
+const List = ({ close = () => {} }) => {
   return (
     <ul>
       {navLinks.map((section, index) => (
-        <li key={index}>
+        <li onClick={close} key={index}>
           <Link href={section.link}>{section.text}</Link>
         </li>
       ))}

@@ -1,0 +1,31 @@
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.imageWrapper {
+  aspect-ratio: 1/0.75;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  object-position: center;
+}
+
+.section.reverse {
+  grid-template-columns: 1fr 1fr;
+}
+
+.section.reverse .imageWrapper {
+  order: -1;
+}
+
+.content {
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

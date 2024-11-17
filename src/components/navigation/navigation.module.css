@@ -24,7 +24,7 @@
 }
 
 .nav img {
-  width: 10rem;
+  width: 15rem;
 }
 
 .nav > div {
@@ -50,7 +50,7 @@
 .nav li {
   list-style-type: none;
 
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 @keyframes move {
@@ -111,6 +111,10 @@
     height: 7rem;
 
     transition: 0.5s ease-in-out;
+  }
+
+  .nav img {
+    width: 10rem;
   }
 
   .open {
