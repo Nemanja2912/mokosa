@@ -2,10 +2,17 @@
 
 import Button from "@/components/button/button";
 import styles from "./hero.module.css";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const [height, setHeight] = useState();
+
+  useEffect(() => {
+    setHeight(window.innerHeight);
+  }, []);
+
   return (
-    <div className={styles.section} style={{ height: window.innerHeight }}>
+    <div className={styles.section} style={{ height }}>
       <img className={styles.background} src="./assets/images/withoutLogo.png" alt="" />
       <div className={`${styles.content} container`}>
         <h1>
