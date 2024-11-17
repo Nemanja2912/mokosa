@@ -1,0 +1,43 @@
+.section {
+  position: relative;
+  background-color: #abc3eb;
+  padding: 15rem 0;
+}
+
+.cloud {
+  position: absolute;
+  transform: rotate(180deg) translateY(50%);
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 21;
+}
+
+.gallery {
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .section {
+    padding: 10rem 0;
+  }
+
+  .gallery {
+    gap: 2rem;
+
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
