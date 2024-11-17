@@ -20,11 +20,15 @@ export default function Home() {
   return (
     <div>
       <Loader />
-      <Hero />
-      {load && <About />}
-      <Gallery />
-      <Work />
-      <Contact />
+      {load && (
+        <>
+          <Hero />
+          <About />
+          <Gallery />
+          <Work />
+          <Contact />
+        </>
+      )}
     </div>
   );
 }
