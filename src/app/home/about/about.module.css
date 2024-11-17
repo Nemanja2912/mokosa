@@ -2,6 +2,8 @@
   position: relative;
 
   padding: 20rem 0;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .cloud {
