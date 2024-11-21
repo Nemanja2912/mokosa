@@ -22,14 +22,6 @@ body {
   overflow-x: hidden !important;
 }
 
-h1,
-h2,
-h3,
-h5,
-h6 {
-  font-family: var(--font-sourGummy);
-}
-
 .container {
   margin: 0 auto;
   max-width: 132rem;
