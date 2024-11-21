@@ -17,7 +17,7 @@ const Playroom = () => {
             realizaciju kreativnih aktivnosti i razvoj motorike kroz sport i okret, a druga
             prostorija rezervisana je za slobodnu igru.
           </p>
-          <img src="./assets/images/mokosa3.jpeg" alt="" />
+          <img src="./assets/images/mokosa3.jpg" alt="" />
           <h2>Nežna stimulacija za pravilan razvoj</h2>
           <p>
             Nama je važno da se u svakom trenutku dok borave u našoj igraonici mališani osećaju

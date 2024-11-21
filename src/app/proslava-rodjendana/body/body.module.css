@@ -1,19 +1,26 @@
 .packages {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
   padding: 0 2rem;
-  margin-top: -17.5rem;
-  padding-bottom: 20rem;
+
+  margin-top: 5rem;
+  gap: 2rem;
+
+  justify-content: center;
 }
 
 .cloud {
-  margin-top: 2rem;
-  width: 100%;
+  width: 48% !important;
+  margin-bottom: 0px !important;
 }
 
 @media (max-width: 900px) {
   .packages {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cloud {
+    width: 100% !important;
   }
 }

@@ -40,12 +40,12 @@ const Body = () => {
             Mokoša tim se trudi da svim roditeljima izađe u susret kada je proslava rođendana u
             pitanju i zbog toga smo kreirali nekoliko različitih paketa.
           </p>
+          <div className={styles.packages}>
+            <img className={styles.cloud} src="./assets/images/cloudText1.png" alt="" />
+            <img className={styles.cloud} src="./assets/images/cloudText2.png" alt="" />
+            <img className={styles.cloud} src="./assets/images/cloudText3.png" alt="" />
+          </div>
         </div>
-      </div>
-      <div className={styles.packages}>
-        <img className={styles.cloud} src="./assets/images/cloudText1.png" alt="" />
-        <img className={styles.cloud} src="./assets/images/cloudText2.png" alt="" />
-        <img className={styles.cloud} src="./assets/images/cloudText3.png" alt="" />
       </div>
     </div>
   );

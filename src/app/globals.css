@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+  color: #1e212e;
 }
 
 html {
@@ -23,19 +25,25 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: var(--font-sourGummy);
 }
 
 .container {
-  margin: 0 10rem;
+  margin: 0 auto;
+  max-width: 132rem;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+@media (min-width: 1380px) {
+  html {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -61,58 +69,60 @@ a {
 /* reuse */
 
 .contentWrapper {
-  background-color: #abc3eb;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../../public/assets/images/background.jpg);
-}
-
-.content {
-  width: 100%;
-  max-width: 100rem;
-  margin: 0 auto;
+  background-color: rgba(232, 207, 173, 1);
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+    url(../../public/assets/images/background.jpg); */
   padding-top: 20rem;
   padding-bottom: 20rem;
 }
 
-.content img {
+h4 {
+  font-weight: 500;
+}
+
+.content > div {
+  max-width: 90rem;
+}
+
+.contentWrapper img {
   width: 100%;
   margin-bottom: 5rem;
   border-radius: 1rem;
 }
 
-.content h2 {
-  font-size: 5rem;
+.contentWrapper h2 {
+  font-size: 3.5rem;
   margin-bottom: 1rem;
   line-height: 100%;
 }
 
-.content h4 {
+.contentWrapper h4 {
   font-size: 2.4rem;
   margin-bottom: 1rem;
   line-height: 100%;
 }
 
-.content p {
+.contentWrapper p {
   font-size: 1.8rem;
   line-height: 140%;
   margin-bottom: 2rem;
 }
 
-.content ul {
+.contentWrapper ul {
   display: flex;
   flex-direction: column;
 }
-.content li {
+.contentWrapper li {
   list-style-type: none;
 }
 
 @media (max-width: 650px) {
-  .content {
+  .contentWrapper {
     padding-top: 15rem;
     padding-bottom: 15rem;
   }
 
-  .content h2 {
+  .contentWrapper h2 {
     font-size: 3rem;
   }
 }

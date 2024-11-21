@@ -1,4 +1,4 @@
-import { Rubik, Sour_Gummy } from "next/font/google";
+import { Rubik, Rubik } from "next/font/google";
 
 export const rubik = Rubik({
   subsets: ["latin"],
@@ -6,8 +6,9 @@ export const rubik = Rubik({
   variable: "--font-rubik",
 });
 
-export const sourGummy = Sour_Gummy({
+export const sourGummy = Rubik({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-sourGummy",
+  weight: ["400", "700", "800"],
 });

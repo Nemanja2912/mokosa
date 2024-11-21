@@ -10,7 +10,7 @@ const navLinks = [
   { text: "Čuvanjac", link: "/cuvanjac" },
   { text: "Programi i radionice", link: "/programi-i-radionice" },
   { text: "Mokoša klub", link: "/mokosa-klub" },
-  { text: "Mokoša showroom", link: "/mokosa-showroom" },
+  // { text: "Mokoša showroom", link: "/mokosa-showroom" },
   // { text: "Želim da ti kažem", link: "/zelim-da-ti-kazem" },
 ];
 
