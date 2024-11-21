@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <div className={styles.section} style={{ height }}>
-      <img className={styles.background} src="./assets/images/withoutLogo.png" alt="" />
+      <img className={styles.background} src="/assets/images/withoutLogo.png" alt="" />
       <div className={`${styles.content} container`}>
         <h1>
           Vaša beba zaslužuje <br /> posebno mesto za igru

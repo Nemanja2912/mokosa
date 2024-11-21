@@ -8,7 +8,7 @@ const Body = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("/programi.json")
+    fetch("/programi/lista.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to load data");

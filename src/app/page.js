@@ -7,6 +7,7 @@ import Gallery from "./home/gallery/gallery";
 import Work from "./home/work/work";
 import Contact from "./home/contact/contact";
 import { useEffect, useState } from "react";
+import Testimonials from "./home/testimonials/testimonials";
 
 export default function Home() {
   const [load, setLoad] = useState(false);
@@ -27,6 +28,7 @@ export default function Home() {
           <Gallery />
           <Work />
           <Contact />
+          <Testimonials />
         </>
       )}
     </div>

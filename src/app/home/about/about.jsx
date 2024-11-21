@@ -5,7 +5,7 @@ import InstagramEmbed from "../instagramFeed/instagramFeed";
 const About = () => {
   return (
     <div className={styles.section}>
-      <img className={styles.cloud} src="./assets/images/cloud1.png" alt="" />
+      <img className={styles.cloud} src="/assets/images/cloud1.png" alt="" />
       <div className={`container `}>
         <div className={styles.content}>
           <div>
@@ -23,7 +23,7 @@ const About = () => {
             </p>
           </div>
           <div className={styles.instagram}>
-            <img src="./assets/images/instagram-background.png" alt="" />
+            <img src="/assets/images/instagram-background.png" alt="" />
             <div className={styles.instagramWrapper}>
               <InstagramEmbed />
             </div>

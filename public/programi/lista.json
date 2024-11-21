@@ -1,0 +1,73 @@
+[
+  {
+    "image": "program1.jpg",
+    "date": "01.12. od 11h",
+    "name": "Mokoša jutro - Koncert klasične muzike i doručak",
+    "desc": [
+      "U saradnji sa Čarobnom frulom organizujemo koncert klasične muzike prilagođen za decu uzrasta od 0+ godina. Slušajući klasičnu muziku deca razvijaju svoj nervni sistem, upijaju kvalitetne tonove i razvijaju osećaj za melodiju.",
+      "Koncert će se održati od 11 h u “roze sobici” i trajeć 60 minuta.",
+      "Doručak u formi samoposluživanja biće postavljen od 10 h u kafiću.",
+      "",
+      "Cena karte iznosi 1200 rsd, roditelji ne plaćaju.",
+      "Cena doručka iznosi 500 rsd i on je opcion."
+    ]
+  },
+  {
+    "image": "program2.jpg",
+    "date": "14.12. od 17h",
+    "name": "Radionica pisanja pisma Deda Mrazu i pravljenje frizurica",
+    "desc": [
+      "Deca će na radionici pisati pisma Deda Mrazu i ubacivati u naše poštansko sanduče. Svaki roditelj će od našeg animatora dobiti informaciju šta je dete poželelo, a nakon toga roditelji mogu doneti poklon svom mališanu koji će biti postavljen ispod naše jelke do trenutka kada budemo organizovali druženje za Deda Mrazom.",
+      "Nakon radionice sva deca koja žele mogu napraviti frizurice – kikice, riblju kost isl.",
+      "",
+      "Cena radionice iznosi 1200 rsd."
+    ]
+  },
+  {
+    "image": "program3.jpeg",
+    "date": "15.12. od 17h",
+    "price": "1200",
+    "currency": "rsd",
+    "name": "Novogodišnja krokovu predstava",
+    "desc": [
+      "Krokovu je rođen od mame krokodila i tate vuka, a dolazi iz pera francuske autorke Ofeli Teksije. Prvi put imamo spoj dve opasne životinje u toplog i entuzijastičnog junaka. Prošlogodišnji dobitnik nagrade Slobodanka Caca Aleksić je reditelj predstave Marko Torlaković, a igraju Jelisaveta Koraksić i Mladen Vuković.",
+      "U novogodišnjoj predstavi, grupi junaka se pridružuje i Deda Mraz. Predstava je prilagođena za decu 2+ godina, a mlađa deca uz pratnju roditelja mogu da je gledaju.",
+      "",
+      "Cena karte iznosi 1200 rsd."
+    ]
+  },
+  {
+    "image": "program4.jpg",
+    "date": "21.12. od 11h",
+    "name": "Radionica izrade novogodišnjih kućica i doručak",
+    "desc": [
+      "Polaznici radionice će praviti od recikliranih materijala novogodišnje kućice koje mogu biti izložene kao dekorativni novogodišnji predmeti u vašem domu.",
+      "Doručak u formi samoposluživanja biće postavljen od 10 h u kafiću.",
+      "",
+      "Cena radionice iznosi 1200 rsd.",
+      "Cena doručka iznosi 500 rsd i on je opcion."
+    ]
+  },
+  {
+    "image": "program5.jpg",
+    "date": "29.12. od 17h",
+    "name": "Dodela novogodišnjih paketića i slikanje sa Deda Mrazom",
+    "desc": [
+      "Mokoša je i ove godine organizovala druženje sa Deda Mrazom i njegovim pomoćnikom Tufijem koji će svoj deci podeliti poklone, koji su prethodno roditelji doneli. Organizovaćemo mini program sa Deda Mrazom i našim animatorima.",
+      "",
+      "Cena programa iznosi 1200 rsd, a ukoliko je vaše dete učestvovalo na radionici pisanja pisma Deda Mrazu onda ovaj program plaća 800 rsd."
+    ]
+  },
+  {
+    "image": "program6.jpg",
+    "date": "31.12. od 17h",
+    "name": "Mokoša novogodišnji matine",
+    "desc": [
+      "I ove godine Mokoša tim organizuje novogodišnju proslavu za naše klince.",
+      "Biće postavljen švedski sto u formi samoposluživanja, a svi roditelji dobiće piće dobrodošlice.",
+      "",
+      "Cena po roditelji iznosi 3000 rsd.",
+      "Deca ne plaćaju."
+    ]
+  }
+]

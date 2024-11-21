@@ -3,7 +3,7 @@ import styles from "./work.module.css";
 const Work = () => {
   return (
     <div className={styles.section}>
-      <img className={styles.cloud} src="./assets/images/cloud1.png" alt="" />
+      <img className={styles.cloud} src="/assets/images/cloud1.png" alt="" />
       <div className="container">
         <div>
           <h2>Informacije o lokaciji</h2>
@@ -26,7 +26,7 @@ const Work = () => {
         </div>
 
         <div>
-          <img src="./assets/images/calendar.jpg" alt="" />
+          <img src="/assets/images/calendar.jpg" alt="" />
         </div>
       </div>
     </div>

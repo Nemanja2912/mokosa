@@ -22,7 +22,7 @@ const Body = () => {
             prirodnom svetlošću, naš prostor odiše toplinom i nežnošću kojem nije potrebna dodatna
             dekoracija i u kojem ćete se osećati kao kod svoje kuće.
           </p>
-          <img src="./assets/images/pr1.jpg" alt="" />
+          <img src="/assets/images/pr1.jpg" alt="" />
           <h4>
             <i>Sigurno i prijatno okruženje</i>
           </h4>
@@ -34,17 +34,34 @@ const Body = () => {
             vazduha vaši mališani će biti na bezbednom i tokom onih dana kada je zagađenje vazduha u
             Beogradu na visokom nivou.
           </p>
-          <img src="./assets/images/pr2.jpg" alt="" />
+          <img src="/assets/images/pr2.jpg" alt="" />
           <h2>Paketi</h2>
           <p>
             Mokoša tim se trudi da svim roditeljima izađe u susret kada je proslava rođendana u
             pitanju i zbog toga smo kreirali nekoliko različitih paketa.
           </p>
           <div className={styles.packages}>
-            <img className={styles.cloud} src="./assets/images/cloudText1.png" alt="" />
-            <img className={styles.cloud} src="./assets/images/cloudText2.png" alt="" />
-            <img className={styles.cloud} src="./assets/images/cloudText3.png" alt="" />
+            <img className={styles.cloud} src="/assets/images/cloudText1.png" alt="" />
+            <img className={styles.cloud} src="/assets/images/cloudText2.png" alt="" />
+            <img className={styles.cloud} src="/assets/images/cloudText3.png" alt="" />
           </div>
+        </div>
+      </div>
+      <div className={styles.grid}>
+        <div className={styles.gridLine}>
+          <img src="/assets/images/proslava1.jpg" alt="" />
+          <img src="/assets/images/proslava6.jpg" alt="" />
+          <img src="/assets/images/proslava3.jpg" alt="" />
+          <img src="/assets/images/proslava5.jpg" alt="" />
+          <img src="/assets/images/proslava10.jpg" alt="" />
+        </div>
+        <div className={styles.gridLine}>
+          <img src="/assets/images/proslava2.jpg" alt="" />
+          <img src="/assets/images/proslava7.jpg" alt="" />
+          <img src="/assets/images/proslava4.jpg" alt="" />
+          <img src="/assets/images/proslava8.jpg" alt="" />
+          <img src="/assets/images/proslava9.jpg" alt="" />
+          <img src="/assets/images/proslava11.jpg" alt="" />
         </div>
       </div>
     </div>

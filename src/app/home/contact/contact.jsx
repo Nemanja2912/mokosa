@@ -4,21 +4,31 @@ import Button from "@/components/button/button";
 import styles from "./contact.module.css";
 
 const Contact = () => {
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    const name = formData.get("name");
-    const email = formData.get("email");
-    const message = formData.get("message");
 
-    // Email body for mailto link
-    const emailBody = encodeURIComponent(`Ime: ${name}\nEmail: ${email}\nPoruka:\n${message}`);
-    window.location.href = `mailto:info@yourdomain.com?subject=Kontakt forma&body=${emailBody}`;
+    try {
+      const response = await fetch("/contact.php", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (response.ok) {
+        alert("Poruka je uspešno poslata!");
+        event.target.reset(); // Resetuje formu
+      } else {
+        alert("Došlo je do greške. Pokušajte ponovo.");
+      }
+    } catch (error) {
+      console.error("Greška pri slanju:", error);
+      alert("Došlo je do greške. Pokušajte ponovo.");
+    }
   };
 
   return (
     <div className={styles.section}>
-      <img className={styles.cloud} src="./assets/images/cloud2.png" alt="Cloud decoration" />
+      <img className={styles.cloud} src="/assets/images/cloud2.png" alt="Cloud decoration" />
       <form onSubmit={handleSubmit} className={`${styles.form} container`}>
         <h2>Pošaljite nam svoj upit, komentar ili sugestiju (prvi dolazak je besplatan)</h2>
         <div className={styles.inputGroup}>

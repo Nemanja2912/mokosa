@@ -48,19 +48,19 @@ const Body = () => {
       </div>
       <div className={styles.grid}>
         <div className={styles.gridLine}>
-          <img src="./assets/images/cuvanjac1.jpg" alt="" />
-          <img src="./assets/images/cuvanjac6.jpg" alt="" />
-          <img src="./assets/images/cuvanjac3.jpg" alt="" />
-          <img src="./assets/images/cuvanjac5.jpg" alt="" />
-          <img src="./assets/images/cuvanjac8.jpg" alt="" />
+          <img src="/assets/images/cuvanjac1.jpg" alt="" />
+          <img src="/assets/images/cuvanjac6.jpg" alt="" />
+          <img src="/assets/images/cuvanjac3.jpg" alt="" />
+          <img src="/assets/images/cuvanjac5.jpg" alt="" />
+          <img src="/assets/images/cuvanjac8.jpg" alt="" />
         </div>
         <div className={styles.gridLine}>
-          <img src="./assets/images/cuvanjac7.jpg" alt="" />
-          <img src="./assets/images/cuvanjac4.jpg" alt="" />
-          <img src="./assets/images/cuvanjac2.jpg" alt="" />
-          <img src="./assets/images/cuvanjac10.jpg" alt="" />
-          <img src="./assets/images/cuvanjac11.jpg" alt="" />
-          <img src="./assets/images/cuvanjac9.jpg" alt="" />
+          <img src="/assets/images/cuvanjac7.jpg" alt="" />
+          <img src="/assets/images/cuvanjac4.jpg" alt="" />
+          <img src="/assets/images/cuvanjac2.jpg" alt="" />
+          <img src="/assets/images/cuvanjac10.jpg" alt="" />
+          <img src="/assets/images/cuvanjac11.jpg" alt="" />
+          <img src="/assets/images/cuvanjac9.jpg" alt="" />
         </div>
       </div>
     </div>

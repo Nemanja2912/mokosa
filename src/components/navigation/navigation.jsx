@@ -25,7 +25,7 @@ const Navigation = () => {
     <nav className={`${styles.nav} ${isMenuOpen ? styles.open : ""}`}>
       <div className={`container  `}>
         <Link href={"/"}>
-          <img src="./assets/images/logo.png" alt="Logo" className={styles.logo} />
+          <img src="/assets/images/logo.png" alt="Logo" className={styles.logo} />
         </Link>
 
         <div className={styles.navLinks}>

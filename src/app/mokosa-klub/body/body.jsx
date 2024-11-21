@@ -72,7 +72,7 @@ const Body = () => {
                 <b>
                   <i>*Mesečna članarina </i>
                 </b>{" "}
-                - 6000 rsd
+                - 8700 rsd
               </p>
             </li>
           </ul>
