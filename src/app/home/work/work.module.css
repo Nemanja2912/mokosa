@@ -22,7 +22,9 @@
 
 .section > div {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: 1fr;
+  max-width: 50rem;
   align-items: center;
   gap: 10rem;
 }
@@ -63,8 +65,9 @@
   }
 
   .section > div {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
     gap: 5rem;
+    max-width: 100%;
   }
 
   .section h2 {

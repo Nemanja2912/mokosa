@@ -26,12 +26,17 @@ const Hero = () => {
           svi gosti osećaju slobodno, prijatno i razdragano.
         </p>
 
-        <a
-          href="https://www.google.com/maps/place/Moko%C5%A1a+Igraonica/@44.8023808,20.4746007,15z/data=!4m2!3m1!1s0x0:0xa2d49ca348bc3f74?sa=X&ved=1t:2428&ictx=111"
-          target="_blank"
-        >
-          <Button>Poseti nas</Button>
-        </a>
+        <div className={styles.buttons}>
+          <a
+            href="https://www.google.com/maps/place/Moko%C5%A1a+Igraonica/@44.8023808,20.4746007,15z/data=!4m2!3m1!1s0x0:0xa2d49ca348bc3f74?sa=X&ved=1t:2428&ictx=111"
+            target="_blank"
+          >
+            <Button>Poseti nas</Button>
+          </a>
+          <a className={styles.secondButton} href="tel:+381652160507">
+            <Button>Pozovi nas</Button>
+          </a>
+        </div>
       </div>
     </div>
   );

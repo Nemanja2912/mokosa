@@ -26,9 +26,9 @@ export default function Home() {
           <Hero />
           <About />
           <Gallery />
+          <Testimonials />
           <Work />
           <Contact />
-          <Testimonials />
         </>
       )}
     </div>

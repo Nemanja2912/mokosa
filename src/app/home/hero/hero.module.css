@@ -48,6 +48,19 @@
   margin-bottom: 2rem;
 }
 
+.secondButton > div {
+  background-color: rgb(236, 173, 85);
+}
+
+.secondButton > div:hover {
+  background-color: rgba(236, 173, 85, 0.7);
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
 @keyframes move {
   from {
     transform: translateY(2.5rem);

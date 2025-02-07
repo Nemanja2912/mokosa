@@ -25,9 +25,9 @@ const Work = () => {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <img src="/assets/images/calendar.jpg" alt="" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
